@@ -1,283 +1,295 @@
-
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="utf-8">
-	<title>Возьмите на практику</title>
-<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Roboto&display=swap&subset=cyrillic" rel="stylesheet">
-	<style type="text/css">
-	body{
-	margin:0;
-	font-family: 'Fira Sans', sans-serif;
-	font-size: 16px;
-	color:#000;
-	box-sizing: border-box;
-	}
-	*{
-		box-sizing: border-box;
-	}
-	p{
-		margin:0px;
-	}
-	/*navigation*/
-	.nav{
-		width: 15%;
-		height: 100%;
-		background-color: #fff;
-		margin:0 0;
-		position:fixed;
-	}
-	.photo{
-		text-align: center;
-		border-radius: 85px;
-		position: sticky;
-		max-width: 170px;
-		max-height: 170px;
-	}
-	
-	.image{
-		width: 90%;
-		height: 100%;
-		margin: 5%;
-		align-items: left;
-	}
-	img.photo{
-		width: 100%;
-		height:100%;
-	}
-	.icon{
-		/*height:30px;
+    <meta charset="utf-8">
+    <title>Р’РѕР·СЊРјРёС‚Рµ РЅР° РїСЂР°РєС‚РёРєСѓ</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Roboto&display=swap&subset=cyrillic" rel="stylesheet">
+    <style type="text/css">
+        body {
+            margin: 0;
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 16px;
+            color: #000;
+            box-sizing: border-box;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        p {
+            margin: 0px;
+        }
+        /*navigation*/
+        
+        .nav {
+            width: 15%;
+            height: 100%;
+            background-color: #fff;
+            margin: 0 0;
+            position: fixed;
+        }
+        
+        .photo {
+            text-align: center;
+            border-radius: 85px;
+            position: sticky;
+            max-width: 170px;
+            max-height: 170px;
+        }
+        
+        .image {
+            width: 90%;
+            height: 100%;
+            margin: 5%;
+            align-items: left;
+        }
+        
+        img.photo {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .icon {
+            /*height:30px;
 		width:30px;*/
-		margin: 15px 0;
-	}
-	.link{
-		color:#000;
-		text-decoration: none;	
-	}
-	.link:hover {
-		text-decoration: underline;
-
-	}
-	.person{
-		font-weight: bold;
-	}
-	.upper{
-		text-transform: uppercase;
-		font-size: 18px;
-		color:#36558f;
-		border-bottom: 2px solid #36558f;
-		font-size: 16px;
-		height:27px;
-		margin: 15px 0px 10px 0px;
-		font-weight: bold;
-	
-
-	}
-	.skills ul{
-		
-		text-align: center;
-		color:#fff;
-		list-style: none;
-		padding: 0;
-		
-		
-}
-	.skills li{
-padding: 7px 0px;
-margin-bottom: 10px;
-font-size: 18px;
-letter-spacing: 2px;
-transition: 0.3s all linear;
-border-radius: 5px;
-background-color: #36558f;
-}
-	.container{
-		width:80%;
-		max-width: 1628px;
-		margin:30px 230px;
-	}
-
-
-
-	/*article*/
-	article{
-		
-		margin: 0 0 0 15%;
-		display: inline-block;
-		position: relative;
-		width: 84%;
-	}
-	.up{
-		font-family: 'Fira Sans', sans-serif;
-		font-size: 24px;
-		border-radius: 5px;
-		height: 230px;
-		color:#fff;
-		background-color:#36558f;
-		padding: 10px;
-	}
-	.title{
-		margin-top: 0px;
-		margin-bottom: 0px;
-		padding: 0 0 0 10px;
-		font-size: 24px;
-	}
-	.maininf{
-		margin-top: 0px;
-		padding: 0 0 0 5px;
-		font-size: 22px;
-		color:#36558f;
-		font-weight: bold;
-	}
-	.time{
-		padding: 0 0 0 5px;
-		color:#36558f;
-		font-style: italic;
-		font-size: 18px;
-	}
-	.second{
-		color:#000000;
-		margin: 0px;
-		padding: 0 0 0 5px;
-		font-weight: bolder;
-		font-size: 20px;
-	}
-	.second ul{
-		list-style: none;
-	}
-	.second li{
-		padding: 0px;
-		
-	}
-	.pdf{
-		min-width: 640px;
-		min-height: 480px;
-	}
-	
-	</style>
+            margin: 15px 0;
+        }
+        
+        .link {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .link:hover {
+            text-decoration: underline;
+        }
+        
+        .person {
+            font-weight: bold;
+        }
+        
+        .upper {
+            text-transform: uppercase;
+            font-size: 18px;
+            color: #36558f;
+            border-bottom: 2px solid #36558f;
+            font-size: 16px;
+            height: 27px;
+            margin: 15px 0px 10px 0px;
+            font-weight: bold;
+        }
+        
+        .skills ul {
+            text-align: center;
+            color: #fff;
+            list-style: none;
+            padding: 0;
+        }
+        
+        .skills li {
+            padding: 7px 0px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            letter-spacing: 2px;
+            transition: 0.3s all linear;
+            border-radius: 5px;
+            background-color: #36558f;
+        }
+        
+        .container {
+            width: 80%;
+            max-width: 1628px;
+            margin: 30px 230px;
+        }
+        /*article*/
+        
+        article {
+            margin: 0 0 0 15%;
+            display: inline-block;
+            position: relative;
+            width: 84%;
+        }
+        
+        .up {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 24px;
+            border-radius: 5px;
+            height: 230px;
+            color: #fff;
+            background-color: #36558f;
+            padding: 10px;
+        }
+        
+        .title {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding: 0 0 0 10px;
+            font-size: 24px;
+        }
+        
+        .maininf {
+            margin-top: 0px;
+            padding: 0 0 0 5px;
+            font-size: 22px;
+            color: #36558f;
+            font-weight: bold;
+        }
+        
+        .time {
+            padding: 0 0 0 5px;
+            color: #36558f;
+            font-style: italic;
+            font-size: 18px;
+        }
+        
+        .second {
+            color: #000000;
+            margin: 0px;
+            padding: 0 0 0 5px;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+        
+        .second ul {
+            list-style: none;
+        }
+        
+        .second li {
+            padding: 0px;
+        }
+        
+        .pdf {
+            min-width: 640px;
+            min-height: 480px;
+        }
+    </style>
 </head>
+
 <body>
-	<div class="nav">
-			<div class="image">
-				<img class="photo" src="https://i.pinimg.com/originals/6c/16/81/6c16815a4bfc1d0b22a7abb3a56a380e.jpg"> 
-				<div class="icon">
-					<img src="https://i.pinimg.com/originals/f1/04/86/f10486f579e7465b430fee530f694f4e.jpg" width="30" height="30">
-				</div>
-				<div class="person">
-					<a class="link" href="https://mail.google.com/mail/u/0/#inbox?compose=vkmnKwxxJqxrSQzGzGSnKPxDDhlVhLmcPWlqKrcWWvXJKlhNjDlMzqKpMpFdngnwGcMgxBXCKzwKgKvTLRGCvmcBVJcXTqkwdlZGfJjCmXmnQxlnwpMmHZTdtBQxlxwFblxBLVWnkjgWdlSPxjmnJSmpBGlVcLKbqgFRpxFpzG" target="_blank">dbakach@gmail.com</a>
-				</div>
+    <div class="nav">
+        <div class="image">
+            <img class="photo" src="https://i.pinimg.com/originals/6c/16/81/6c16815a4bfc1d0b22a7abb3a56a380e.jpg">
+            <div class="icon">
+                <img src="https://i.pinimg.com/originals/f1/04/86/f10486f579e7465b430fee530f694f4e.jpg" width="30" height="30">
+            </div>
+            <div class="person">
+                <a class="link" href="https://mail.google.com/mail/u/0/#inbox?compose=vkmnKwxxJqxrSQzGzGSnKPxDDhlVhLmcPWlqKrcWWvXJKlhNjDlMzqKpMpFdngnwGcMgxBXCKzwKgKvTLRGCvmcBVJcXTqkwdlZGfJjCmXmnQxlnwpMmHZTdtBQxlxwFblxBLVWnkjgWdlSPxjmnJSmpBGlVcLKbqgFRpxFpzG" target="_blank">dbakach@gmail.com</a>
+            </div>
 
-				<div class="icon">
-					<img src="https://i.pinimg.com/originals/2a/5e/57/2a5e5790cdd9b96ea1bd389b820d135e.jpg"  width="30" height="30">
-				</div>
-				<div class="person">
-					<p><em>+375 29 1188846</em></p>
-				</div>
-				<div class="icon">
-					<img src="https://i.pinimg.com/originals/d0/22/3f/d0223f134369ce647fbacd8bb0d25071.jpg" width="30" height="30">
-				</div>
-				<div class="person">
-					<p>Минск, Беларусь</p>
-				</div>
-				<div class="upper">
-					<h3>Опыт работы с</h3>
-				</div>
-				<div class="skills">
-				<ul>
-		<li>Solidworks</li>
-		<li>Fusion360</li>
-		<li>AutoCAD</li>
-		<li>Photoshop</li>
-		<li>HTML</li>
-		<li>C/C++</li>
-		<li>CSS</li>
-		<li>C#</li>
-		<li>LabVIEW</li>
-		<li>Другие</li>
-	</ul>
-				</div>
+            <div class="icon">
+                <img src="https://i.pinimg.com/originals/2a/5e/57/2a5e5790cdd9b96ea1bd389b820d135e.jpg" width="30" height="30">
+            </div>
+            <div class="person">
+                <p><em>+375 29 1188846</em></p>
+            </div>
+            <div class="icon">
+                <img src="https://i.pinimg.com/originals/d0/22/3f/d0223f134369ce647fbacd8bb0d25071.jpg" width="30" height="30">
+            </div>
+            <div class="person">
+                <p>РњРёРЅСЃРє, Р‘РµР»Р°СЂСѓСЃСЊ</p>
+            </div>
+            <div class="upper">
+                <h3>РћРїС‹С‚ СЂР°Р±РѕС‚С‹ СЃ</h3>
+            </div>
+            <div class="skills">
+                <ul>
+                    <li>Solidworks</li>
+                    <li>Fusion360</li>
+                    <li>AutoCAD</li>
+                    <li>Photoshop</li>
+                    <li>HTML</li>
+                    <li>C/C++</li>
+                    <li>CSS</li>
+                    <li>C#</li>
+                    <li>LabVIEW</li>
+                    <li>Р”СЂСѓРіРёРµ</li>
+                </ul>
+            </div>
 
 
-			
-	</div>
-</div>
-<article>
-	<div class="up">
-		<h2>Бакач Даниил Александрович</h2>
-		<p class="underline">Инженер по интеллектуальным системам</p>
-		<p class="underline"> Ищу производственную практику. Во время практики хотел бы получить новые навыки, которые смогут дать направление для развития и будущей работы.</p>
-	</div>
-	<div class="upper">
-		<p class="title">Oбразование</p>
-	</div>
-	
-	<div class="maininf">
-		<p class="maininf">Белорусский национальный технический университет</p>
-	</div>
-	<div class="second">
-		<p class="second">Специальность: интегральные сенсорные системы</p>
-		<p class="time">2018-2022</p>
-	</div>
-<div class="maininf">
-		<p class="maininf">Средняя школа №147</p>
-	</div>
-	<div class="second">
-		<p class="second">Закончил в 2018 году</p>
-		<p class="second">Средний балл: 9,3</p>
-	</div>
-	<div class="upper">
-		<p class="title">Работа в программах</p>
-	</div>
-	<div class="second">
 
-		<p class="second">LabVIEW: Создание программ, создание аппаратно-программных комплексов на основе микроконтроллеров.</p>
-		<p class="second">Solidworks: создание 3D объектов, сборок, рендер, анимация.</p>
-		<p class="second">Fusion360: создание 3D объектов, сборок, рендер, анимация.</p>
-		<p class="second">AutoCAD: проектирование чертежей деталей машин, чертежей электрических схем.</p>
-		<p class="second">HTML+CSS: создание и поддержка сайтов.</p>
-		<p class="second">Photoshop: создание, обработка и редактирование изображений .</p>
-		<p class="second">C++ и С#: создание программ.
-		<p class="second">Пакет Microsoft Office.</p>
-		<p class="second">Multisim: создание и проектирование электрических схем.</p>
-		<p class="second">Компас: проектирование чертежей деталей машин.</p>
-	</div>
-	<div class="upper">
-		<p class="title">Участие в студенческих и научных мероприятиях</p>
-	</div>
-	<div class="second">
-		<p class="second">Участие в конкурсе студенческих работ на тему: "Аппаратно-програмная оптико-электрическая система на основе Arduino и LabVIEW"</p>
-		<p class="second">Участие в Республиканской научно-технической конференции "Интеллектуальные системы" с докладом:"Акустическая сенсорная система для контроля измерения расстояния".</p>
-		<p class="second">Участие в международных инженерных играх "World Engeneer comp".</p>
-		<p class="second">Член команды участников в междунароных соревнованиях WorldSkills направление - Робототехника.</p>
-	<div class="second">
-	<div class="upper">
-		<p class="title">Владение языками</p>
-	</div>
-	<div class="second">
-		<ul class="second">
-			<li>Русский</li>
-			<li>Белорусский</li>
-			<li>Английский</li>	
-		</ul>
-	</div>
-
-		<div class="upper">
-		<p class="title">Обо мне</p>
-	</div>
-	<div class="second">
-		<p class="second">Обладаю стойким, уравновешенным характером. Не склонен к конфликтам. Стрессоустойчив. Умею работать в команде. Добросовестно отношусь к выполнению поставленных задач.
-		 В свободное время занимаюсь повышением профессионального уровня. Также постоянно стараюсь совершенствовать полученные навыки и получать новые знания.</p>
-	</div>
-	<div class="upper">
-		<p class="title">Награды и достижения</p>
-	</div>
-	<div class="pdf">
-            <iframe src="https://drive.google.com/file/d/1GwhjG1Xzfzb14rUmF4nr90bN77qMFKZC/preview" width="640" height="480"></iframe>
-            <iframe src="https://drive.google.com/file/d/1eKtIbtfgC5N7cyzgOsX94JMqcf6HBEpI/preview" width="640" height="480"></iframe>
-            <iframe src="https://drive.google.com/file/d/1knJd92Z0xs1ifl36Av5q8aXGu2be90co/preview" width="640" height="480"></iframe>
-            <iframe src="https://drive.google.com/file/d/1YGezjJiQTZcgLr904amjSVrWFHHLlaA9/preview" width="640" height="480"></iframe>        
         </div>
-</article>
-		
+    </div>
+    <article>
+        <div class="up">
+            <h2>Р‘Р°РєР°С‡ Р”Р°РЅРёРёР» РђР»РµРєСЃР°РЅРґСЂРѕРІРёС‡</h2>
+            <p class="underline">РРЅР¶РµРЅРµСЂ РїРѕ РёРЅС‚РµР»РµРєС‚СѓР°Р»СЊРЅС‹Рј СЃРёСЃС‚РµРјР°Рј</p>
+            <p class="underline"> РС‰Сѓ РїСЂРѕРёР·РІРѕРґСЃС‚РІРµРЅРЅСѓСЋ РїСЂР°РєС‚РёРєСѓ. Р’Рѕ РІСЂРµРјСЏ РїСЂР°РєС‚РёРєРё С…РѕС‚РµР» Р±С‹ РїРѕР»СѓС‡РёС‚СЊ РЅРѕРІС‹Рµ РЅР°РІС‹РєРё, РєРѕС‚РѕСЂС‹Рµ СЃРјРѕРіСѓС‚ РґР°С‚СЊ РЅР°РїСЂР°РІР»РµРЅРёРµ РґР»СЏ СЂР°Р·РІРёС‚РёСЏ Рё Р±СѓРґСѓС‰РµР№ СЂР°Р±РѕС‚С‹</p>
+        </div>
+        <div class="upper">
+            <p class="title">РћР±СЂР°Р·РѕРІР°РЅРёРµ</p>
+        </div>
+
+        <div class="maininf">
+            <p class="maininf">Р‘РµР»РѕСЂСѓСЃСЃРєРёР№ РЅР°С†РёРѕРЅР°Р»СЊРЅС‹Р№ С‚РµС…РЅРёС‡РµСЃРєРёР№ СѓРЅРёРІРµСЂСЃРёС‚РµС‚</p>
+        </div>
+        <div class="second">
+            <p class="second">РЎРїРµС†РёР°Р»СЊРЅРѕСЃС‚СЊ: РёРЅС‚РµРіСЂР°Р»СЊРЅС‹Рµ СЃРµРЅСЃРѕСЂРЅС‹Рµ СЃРёСЃС‚РµРјС‹</p>
+            <p class="time">2018-2022</p>
+        </div>
+        <div class="maininf">
+            <p class="maininf">РЎСЂРµРґРЅСЏСЏ С€РєРѕР»Р° в„–147</p>
+        </div>
+        <div class="second">
+            <p class="second">Р—Р°РєРѕРЅС‡РёР» РІ 2018 РіРѕРґСѓ</p>
+            <p class="second">РЎСЂРµРґРЅРёР№ Р±Р°Р»Р»: 9,3</p>
+        </div>
+        <div class="upper">
+            <p class="title">Р Р°Р±РѕС‚Р° РІ РїСЂРѕРіСЂР°РјРјР°С…</p>
+        </div>
+        <div class="second">
+
+            <p class="second">LabVIEW: РЎРѕР·РґР°РЅРёРµ РїСЂРѕРіСЂР°РјРј, СЃРѕР·РґР°РЅРёРµ Р°РїРїР°СЂР°С‚РЅРѕ-РїСЂРѕРіСЂР°РјРјРЅС‹С… РєРѕРјРїР»РµРєСЃРѕРІ РЅР° РѕСЃРЅРѕРІРµ РјРёРєСЂРѕРєРѕРЅС‚СЂРѕР»Р»РµСЂРѕРІ.</p>
+            <p class="second">Solidworks: СЃРѕР·РґР°РЅРёРµ 3D РѕР±СЉРµРєС‚РѕРІ, СЃР±РѕСЂРѕРє, СЂРµРЅРґРµСЂ, Р°РЅРёРјР°С†РёСЏ.</p>
+            <p class="second">Fusion360: СЃРѕР·РґР°РЅРёРµ 3D РѕР±СЉРµРєС‚РѕРІ, СЃР±РѕСЂРѕРє, СЂРµРЅРґРµСЂ, Р°РЅРёРјР°С†РёСЏ.</p>
+            <p class="second">AutoCAD: РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёРµ С‡РµСЂС‚РµР¶РµР№ РґРµС‚Р°Р»РµР№ РјР°С€РёРЅ, С‡РµСЂС‚РµР¶РµР№ СЌР»РµРєС‚СЂРёС‡РµСЃРєРёС… СЃС…РµРј.</p>
+            <p class="second">HTML+CSS: СЃРѕР·РґР°РЅРёРµ Рё РїРѕРґРґРµСЂР¶РєР° СЃР°Р№С‚РѕРІ.</p>
+            <p class="second">Photoshop: СЃРѕР·РґР°РЅРёРµ, РѕР±СЂР°Р±РѕС‚РєР° Рё СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёРµ РёР·РѕР±СЂР°Р¶РµРЅРёР№.</p>
+            <p class="second">C++ Рё РЎ#: СЃРѕР·РґР°РЅРёРµ РїСЂРѕРіСЂР°РјРј.
+                <p class="second">РџР°РєРµС‚ Microsoft Office.</p>
+                <p class="second">Multisim: СЃРѕР·РґР°РЅРёРµ Рё РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёРµ СЌР»РµРєС‚СЂРёС‡РµСЃРєРёС… СЃС…РµРј.</p>
+                <p class="second">РљРѕРјРїР°СЃ: РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёРµ С‡РµСЂС‚РµР¶РµР№ РґРµС‚Р°Р»РµР№ РјР°С€РёРЅ.</p>
+        </div>
+        <div class="upper">
+            <p class="title">РЈС‡Р°СЃС‚РёРµ РІ СЃС‚СѓРґРµРЅС‡РµСЃРєРёС… Рё РЅР°СѓС‡РЅС‹С… РјРµСЂРѕРїСЂРёСЏС‚РёСЏС…</p>
+        </div>
+        <div class="second">
+            <p class="second">РЈС‡Р°СЃС‚РёРµ РІ РєРѕРЅРєСѓСЂСЃРµ СЃС‚СѓРґРµРЅС‡РµСЃРєРёС… СЂР°Р±РѕС‚ РЅР° С‚РµРјСѓ: "РђРїРїР°СЂР°С‚РЅРѕ-РїСЂРѕРіСЂР°РјРЅР°СЏ РѕРїС‚РёРєРѕ-СЌР»РµРєС‚СЂРёС‡РµСЃРєР°СЏ СЃРёСЃС‚РµРјР° РЅР° РѕСЃРЅРѕРІРµ Arduino Рё LabVIEW"</p>
+            <p class="second">РЈС‡Р°СЃС‚РёРµ РІ Р РµСЃРїСѓР±Р»РёРєР°РЅСЃРєРѕР№ РЅР°СѓС‡РЅРѕ-С‚РµС…РЅРёС‡РµСЃРєРѕР№ РєРѕРЅС„РµСЂРµРЅС†РёРё "РРЅС‚РµР»Р»РµРєС‚СѓР°Р»СЊРЅС‹Рµ СЃРёСЃС‚РµРјС‹" СЃ РґРѕРєР»Р°РґРѕРј:"РђРєСѓСЃС‚РёС‡РµСЃРєР°СЏ СЃРµРЅСЃРѕСЂРЅР°СЏ СЃРёСЃС‚РµРјР° РґР»СЏ РєРѕРЅС‚СЂРѕР»СЏ РёР·РјРµСЂРµРЅРёСЏ СЂР°СЃСЃС‚РѕСЏРЅРёСЏ".</p>
+            <p class="second">РЈС‡Р°СЃС‚РёРµ РІ РјРµР¶РґСѓРЅР°СЂРѕРґРЅС‹С… РёРЅР¶РµРЅРµСЂРЅС‹С… РёРіСЂР°С… "World Engeneer comp".</p>
+            <p class="second">Р§Р»РµРЅ РєРѕРјР°РЅРґС‹ СѓС‡Р°СЃС‚РЅРёРєРѕРІ РІ РјРµР¶РґСѓРЅР°СЂРѕРЅС‹С… СЃРѕСЂРµРІРЅРѕРІР°РЅРёСЏС… WorldSkills РЅР°РїСЂР°РІР»РµРЅРёРµ - Р РѕР±РѕС‚РѕС‚РµС…РЅРёРєР°.</p>
+            <div class="second">
+                <div class="upper">
+                    <p class="title">Р’Р»Р°РґРµРЅРёРµ СЏР·С‹РєР°РјРё</p>
+                </div>
+                <div class="second">
+                    <ul class="second">
+                        <li>Р СѓСЃСЃРєРёР№</li>
+                        <li>Р‘РµР»РѕСЂСѓСЃСЃРєРёР№</li>
+                        <li>РђРЅРіР»РёР№СЃРєРёР№</li>
+                    </ul>
+                </div>
+
+                <div class="upper">
+                    <p class="title">РћР±Рѕ РјРЅРµ</p>
+                </div>
+                <div class="second">
+                    <p class="second">РћР±Р»Р°РґР°СЋ СЃС‚РѕР№РєРёРј, СѓСЂР°РІРЅРѕРІРµС€РµРЅРЅС‹Рј С…Р°СЂР°РєС‚РµСЂРѕРј. РќРµ СЃРєР»РѕРЅРµРЅ Рє РєРѕРЅС„Р»РёРєС‚Р°Рј. РЎС‚СЂРµСЃСЃРѕСѓСЃС‚РѕР№С‡РёРІ. РЈРјРµСЋ СЂР°Р±РѕС‚Р°С‚СЊ РІ РєРѕРјР°РЅРґРµ. Р”РѕР±СЂРѕСЃРѕРІРµСЃС‚РЅРѕ РѕС‚РЅРѕС€СѓСЃСЊ Рє РІС‹РїРѕР»РЅРµРЅРёСЋ РїРѕСЃС‚Р°РІР»РµРЅРЅС‹С… Р·Р°РґР°С‡. Р’ СЃРІРѕР±РѕРґРЅРѕРµ РІСЂРµРјСЏ Р·Р°РЅРёРјР°СЋСЃСЊ РїРѕРІС‹С€РµРЅРёРµРј РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅРѕРіРѕ СѓСЂРѕРІРЅСЏ.
+                        РўР°РєР¶Рµ РїРѕСЃС‚РѕСЏРЅРЅРѕ СЃС‚Р°СЂР°СЋСЃСЊ СЃРѕРІРµСЂС€РµРЅСЃС‚РІРѕРІР°С‚СЊ РїРѕР»СѓС‡РµРЅРЅС‹Рµ РЅР°РІС‹РєРё Рё РїРѕР»СѓС‡Р°С‚СЊ РЅРѕРІС‹Рµ Р·РЅР°РЅРёСЏ.</p>
+                </div>
+                <div class="upper">
+                    <p class="title">РќР°РіСЂР°РґС‹ Рё РґРѕСЃС‚РёР¶РµРЅРёСЏ</p>
+                </div>
+                <div class="pdf">
+                    <iframe src="https://drive.google.com/file/d/1GwhjG1Xzfzb14rUmF4nr90bN77qMFKZC/preview" width="640" height="480"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1eKtIbtfgC5N7cyzgOsX94JMqcf6HBEpI/preview" width="640" height="480"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1knJd92Z0xs1ifl36Av5q8aXGu2be90co/preview" width="640" height="480"></iframe>
+                    <iframe src="https://drive.google.com/file/d/1YGezjJiQTZcgLr904amjSVrWFHHLlaA9/preview" width="640" height="480"></iframe>
+                </div>
+    </article>
+
 </body>
+
 </html>
